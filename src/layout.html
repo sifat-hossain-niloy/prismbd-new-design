@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{title}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{canonical}}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Prism Venture">
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:image" content="https://prismbd.net/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b1220">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"Prism Venture","url":"https://prismbd.net","logo":"https://prismbd.net/assets/img/prism-bd.webp","foundingDate":"2011","email":"saadi@prismbd.net","telephone":"+880-2-8417590","address":{"@type":"PostalAddress","streetAddress":"House # 317 (2nd floor), Road # 04, Baridhara DOHS","addressLocality":"Dhaka","postalCode":"1206","addressCountry":"BD"}}
+</script>
+</head>
+<body class="theme-{{theme}}">
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="topbar">
+  <div class="wrap topbar__inner">
+    <span class="topbar__item">Baridhara DOHS, Dhaka · Bangladesh</span>
+    <span class="topbar__links">
+      <a href="tel:+88028417590">+880-02-8417590</a>
+      <a href="tel:+8801713363842">+880 1713-363842</a>
+      <a href="mailto:saadi@prismbd.net">saadi@prismbd.net</a>
+    </span>
+  </div>
+</div>
+
+<header class="header" data-header>
+  <div class="wrap header__inner">
+    <a class="brand" href="/" aria-label="Prism Venture home">
+      <img class="brand__mark" src="/assets/img/prism-bd_logo.webp" alt="" width="40" height="42">
+      <span class="brand__word"><span class="brand__prism">PRISM</span><span class="brand__venture">VENTURE</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <ul class="nav__list" id="nav-list">
+        <li><a href="/apparel/"{{nav_apparel}}>Apparel</a></li>
+        <li><a href="/jute/"{{nav_jute}}>Jute</a></li>
+        <li><a href="/tech/"{{nav_tech}}>Tech</a></li>
+        <li><a href="/product/"{{nav_product}}>Products</a></li>
+        <li><a href="/contact/"{{nav_contact}}>Contact</a></li>
+        <li class="nav__cta-mobile"><a class="btn btn--primary" href="/contact/#inquiry">Start an inquiry</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn--primary header__cta" href="/contact/#inquiry">Start an inquiry</a>
+    <button class="menu-toggle" type="button" aria-controls="nav-list" aria-expanded="false" aria-label="Open menu" data-menu-toggle>
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+{{content}}
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a class="brand brand--light" href="/" aria-label="Prism Venture home">
+          <img class="brand__mark" src="/assets/img/prism-bd_logo.webp" alt="" width="40" height="42">
+          <span class="brand__word"><span class="brand__prism">PRISM</span><span class="brand__venture">VENTURE</span></span>
+        </a>
+        <p>Excellence in apparel, jute products and IT solutions, from Dhaka, Bangladesh, since 2011.</p>
+      </div>
+      <div class="footer__col">
+        <h2>Divisions</h2>
+        <ul>
+          <li><a href="/apparel/">Apparel sourcing</a></li>
+          <li><a href="/jute/">Jute products</a></li>
+          <li><a href="/tech/">Tech solutions</a></li>
+          <li><a href="/product/">Product catalogue</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2>Visit</h2>
+        <address>House # 317 (2nd floor),<br>Road # 04, Baridhara DOHS,<br>Dhaka-1206, Bangladesh</address>
+      </div>
+      <div class="footer__col">
+        <h2>Talk to us</h2>
+        <ul>
+          <li><a href="tel:+88028417590">+880-02-8417590</a></li>
+          <li><a href="tel:+88028417591">+880-02-8417591</a></li>
+          <li><a href="tel:+8801713363842">+880 1713-363842</a></li>
+          <li><a href="mailto:saadi@prismbd.net">saadi@prismbd.net</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© {{year}} Prism Venture. All rights reserved.</span>
+      <span>Buying house · Jute exporter · Software</span>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" data-lightbox hidden>
+  <button class="lightbox__close" type="button" aria-label="Close" data-lightbox-close>×</button>
+  <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous" data-lightbox-prev>‹</button>
+  <img class="lightbox__img" alt="" data-lightbox-img>
+  <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next" data-lightbox-next>›</button>
+</div>
+
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>

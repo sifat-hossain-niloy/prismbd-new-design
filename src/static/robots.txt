@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prismbd.net/sitemap.xml
