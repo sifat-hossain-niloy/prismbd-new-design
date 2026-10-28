@@ -1,4 +1,6 @@
-# prismbd.net
+# prismbd.net (new design, archived)
+
+> **Archived (October 2026).** prismbd.net went back to the original website, which now lives in https://github.com/sifat-hossain-niloy/prismbd-website. This redesign is kept here in case we migrate to it later.
 
 Website for **Prism Venture** (apparel sourcing, jute products and tech solutions, Dhaka). Hosted on GitHub Pages at <https://prismbd.net>.
 
